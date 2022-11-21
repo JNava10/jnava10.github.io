@@ -6,12 +6,10 @@
     </head>
     <body>
         <h1>Formulario muy sencillo</h1>
-        <form method="get">
-            <label>Escribe tu nombre: <input type="text" id="input"></label>   
-            <button id="send_btn">Enviar</button><br>
-            <?php 
-                include("formulario.php"); 
-            ?>
-        </form>
+        <label>Escribe tu nombre: <input type="text" id="input"></label>   
+        <button id="send_btn">Enviar</button><br>
+        <?php
+            echo "Tu nombre es" . $_GET["input"];
+        ?>
     </body>
 </html>
