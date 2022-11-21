@@ -1,3 +1,5 @@
 <?php
-    echo "Tu nombre es" . $_GET[""]
+    function send() {
+        echo "Tu nombre es" . $_GET["input"];
+    }
 ?>
