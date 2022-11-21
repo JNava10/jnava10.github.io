@@ -6,12 +6,12 @@
     </head>
     <body>
         <h1>Formulario muy sencillo</h1>
-        <div>
+        <form method="post">
             <label>Escribe tu nombre: <input type="text" id="input"></label>   
-            <button id="send_btn" onclick="">Enviar</button>
+            <button id="send_btn">Enviar</button><br>
             <?php 
-                include("formulario.php");
+                include("formulario.php"); 
             ?>
-        </div>
+        </form>
     </body>
 </html>
