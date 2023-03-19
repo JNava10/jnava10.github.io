@@ -1,0 +1,82 @@
+input[type=text], input[type=email], input[type=password] {
+    border-radius: 999em;
+    background: #D9D9D9;
+    border: none;
+    width: 100%;
+    height: 20px;
+    outline-width: 0;
+    padding: 0.5em 1em;
+    margin: 1em;
+}
+
+#nomYap {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#nomYap input[type=text] {
+    width: 150%;
+}
+
+div {
+    margin: 2%;
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10%;
+    background: #8A88A7;
+    border-radius: 2em;
+}
+
+#email input[type=text] {
+    width: 50%;
+}
+
+#genero fieldset {
+    max-width: max-content;
+    border: 1px solid #525166;
+}
+
+body {
+    padding-top: 30%;
+}
+form {
+    width: 40%;
+    max-height: max-content;
+}
+
+body {
+    font-weight: bold;
+}
+
+.formItem {
+    padding: 0 7em 0 0;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+
+button[type=submit] {
+    background: #66BE89;
+}
+
+button[type=submit]:hover {
+    background: #5aa67b;
+}
+
+
+button[type=reset] {
+    background: #EA7676;
+}
+
+button[type=reset]:hover {
+    background: #bf6060;
+}
+
+
